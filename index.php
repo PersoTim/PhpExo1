@@ -6,6 +6,12 @@ $firstName = 'Timothée';
 $age = 17;
 
 $km = 1;
+
+$event = 'Concert';
+$jour = 15;
+$prix = 49.99;
+
+$rien = NULL
 ?>
 
 <!DOCTYPE html>
@@ -32,6 +38,12 @@ $km = 1;
 
             $km = 125;
             echo 'Toujours pas ... ' . $km . ' km.';
+        ?>
+    </p>
+
+    <p>
+        <?php
+            echo "N'oublies pas, tu as un {$event} dans {$jour} jours ça coute {$prix} €";
         ?>
     </p>
 </body>
